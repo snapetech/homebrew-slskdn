@@ -2,26 +2,26 @@ class Slskr < Formula
   desc "Rust Soulseek daemon with bundled Web UI"
   homepage "https://github.com/snapetech/slskr"
   license "AGPL-3.0-only"
-  version "0.2.32"
+  version "0.2.36"
 
   on_macos do
     on_arm do
-      url "https://github.com/snapetech/slskr/releases/download/release-v0.2.32/slskr-v0.2.32-aarch64-apple-darwin.tar.gz"
-      sha256 "35552b7a9d2a956c92c4d61a3c5afbd554923e579d9dbe006d2614556bbe77a8"
+      url "https://github.com/snapetech/slskr/releases/download/release-v0.2.36/slskr-v0.2.36-aarch64-apple-darwin.tar.gz"
+      sha256 "28966c0800f71baa431a694898fe2ec967724ec8bf20c1247de4e9ba9ea75b07"
     end
     on_intel do
-      url "https://github.com/snapetech/slskr/releases/download/release-v0.2.32/slskr-v0.2.32-x86_64-apple-darwin.tar.gz"
-      sha256 "ae66c577f79085debab6c79d27e78d0253ae721ce2530245346052ea4b792743"
+      url "https://github.com/snapetech/slskr/releases/download/release-v0.2.36/slskr-v0.2.36-x86_64-apple-darwin.tar.gz"
+      sha256 "d5a48df8bc69de0905b10f36f56e8a3b7c8dcee8e2c68f74dd4faf0fd9fd6baa"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/snapetech/slskr/releases/download/release-v0.2.32/slskr-v0.2.32-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "30187b45b8606fdb4a018174cdf510238adedc23058be53a7217f25ae1fbf651"
+      url "https://github.com/snapetech/slskr/releases/download/release-v0.2.36/slskr-v0.2.36-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "529822e94b7701a30b8cd93eab1559f249f9d6590c44706add17b0ee45024f05"
     else
-      url "https://github.com/snapetech/slskr/releases/download/release-v0.2.32/slskr-v0.2.32-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0f581f93655725f66a302891947760d84973461322e1dc3d523a5dbb9edc325f"
+      url "https://github.com/snapetech/slskr/releases/download/release-v0.2.36/slskr-v0.2.36-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "2915289b109ec05ac4685b40722a0e35ac962657674c43f7e205351593094cd8"
     end
   end
 
